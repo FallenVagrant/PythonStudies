@@ -1,0 +1,49 @@
+-- VERSION_4
+-- START DISKCACHE_2
+C:\Users\pivey\Documents\GitHub\PythonStudies\.metadata\.plugins\org.eclipse.core.resources\.projects\Studies\com.python.pydev.analysis\v2_indexcache
+Examples.FirstScript|1469181067261889000|C:\Users\pivey\Documents\GitHub\PythonStudies\Studies\Examples\FirstScript.py
+Examples.Files|1469181067261889000|C:\Users\pivey\Documents\GitHub\PythonStudies\Studies\Examples\Files.py
+Examples.Sets|1469181067263906000|C:\Users\pivey\Documents\GitHub\PythonStudies\Studies\Examples\Sets.py
+Examples.Strings|1469183133619191000|C:\Users\pivey\Documents\GitHub\PythonStudies\Studies\Examples\Strings.py
+Examples.HelloWorld|1469181067261889000|C:\Users\pivey\Documents\GitHub\PythonStudies\Studies\Examples\HelloWorld.py
+Examples.RandomChoice|1469183133621192000|C:\Users\pivey\Documents\GitHub\PythonStudies\Studies\Examples\RandomChoice.py
+Examples.__init__|1469181067263906000|C:\Users\pivey\Documents\GitHub\PythonStudies\Studies\Examples\__init__.py
+Examples.Dictionaries|1469181067260889000|C:\Users\pivey\Documents\GitHub\PythonStudies\Studies\Examples\Dictionaries.py
+Examples.Loops|1469181067262891000|C:\Users\pivey\Documents\GitHub\PythonStudies\Studies\Examples\Loops.py
+-- END DISKCACHE
+-- START DICTIONARY
+6
+6=Examples.FirstScript
+3=Examples.Sets
+4=Examples.Files
+2=Examples.Strings
+1=Examples.Dictionaries
+5=Examples.Loops
+-- END DICTIONARY
+-- START TREE 1
+21
+D|1|D!11@
+L|1|L!19@
+X|1|X!27@
+Y|1|Y!27@
+bob|1|bob1!11@
+bre|1|bread!11@
+cha|1|CharIn!19@
+f|1|f!35@
+fil|1|file!35@
+fir|1|FirstName!19@
+inf|1|inFullName!19@
+inp|2|inPath2!35@inPath!35@
+r|1|r!35@
+raw|2|rawSurname!19@rawFirstName!19@
+rea|1|read!35@
+rec|1|rec!11@
+sep|1|separatedName!19@
+str|6|strFullName!19@strNewName!19@strFirstName!19@strName!19@Str!19@strSurname!19@
+sur|1|Surname!19@
+t|1|t!35@
+x|2|x!43@x!51@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

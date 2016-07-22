@@ -1,0 +1,75 @@
+Str = "Hello!"
+
+print("Contents of Str:", Str)
+
+print("Length of Str: ", len(Str))
+
+print("First character of Str:", Str[0])
+
+print("Last character of Str:", Str[-1])
+
+print("First 4 characters of Str:", Str[0:4])
+
+strName = "Vagrant Fallen"
+
+print("Name:", strName)
+
+print("Name the wrong way around:", strName)
+
+L = list(strName)
+print("List: ", L)
+print("\nChanging names around...")
+L[0] = 'F'
+L[1] = 'a'
+L[2] = 'l'
+L[3] = 'l'
+L[4] = 'e'
+L[5] = 'n'
+L[6] = ' '
+L[7] = 'V'
+L[8] = 'a'
+L[9] = 'g'
+L[10] = 'r'
+L[11] = 'a'
+L[12] = 'n'
+L[13] = 't'
+
+print("List now: ", L)
+strName = ''.join(L)
+print("Name now: ", ''.join(L))
+
+
+#Will return -1 if not found, and the character offset if found
+CharIn = input("Type a letter/s and see if it's in the name (case-sensitive): ")
+
+#Will return -1 if not found, and the character offset if found (first instance of that character anyway)
+CharIn = input("Type a letter/s and see if it's in the name above (case-sensitive): ")
+
+if strName.find(CharIn) == -1:
+    print("No,", CharIn, "is not in the name, sorry!")
+else:
+    print("Yes,", CharIn, " is in the name, at position ", strName.find(CharIn))
+
+print("\nReplacing 'l' with 't'...")
+strNewName = strName.replace('l', 't')
+print("New name: ", strNewName)
+
+inFullName = input("\n\nPlease enter your full name (I'll capitalise for you): ")
+
+print("\nReplacing 'l's with 't's...")
+strNewName = strName.replace('l', 't')
+print("New name: ", strNewName)
+
+inFullName = input("\n\nPlease enter your first and surname (I'll capitalise for you): ")
+
+separatedName = inFullName.split(' ')
+rawFirstName = separatedName[0]
+rawSurname = separatedName[1]
+FirstName = list(rawFirstName)
+FirstName[0] = FirstName[0].upper()
+strFirstName = ''.join(FirstName)
+Surname = list(rawSurname)
+Surname[0] = Surname[0].upper()
+strSurname = ''.join(Surname)
+strFullName = strFirstName + " " + strSurname
+print("Your name is:", strFullName)
